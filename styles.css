@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color:  #f8f9fa;;
+}
+
+
+header {
+    background-color: purple; 
+    color: #ffd700;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 1.5em;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffd700; 
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.hero {
+    background: linear-gradient(to bottom, #d1c4e9, #6a1b9a); 
+    color: #ffd700;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero .hero-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #ffd700;
+    color: #6a1b9a; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.hero .btn:hover {
+    background-color: #ffeb3b; 
+}
+
+.featured {
+    background-color: #f1f8e9;
+    padding: 40px 20px;
+}
+
+.featured .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.featured .feature {
+    width: 45%;
+}
+
+.featured .feature h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.featured .feature ul {
+    list-style: none;
+}
+
+.featured .feature ul li {
+    margin-bottom: 5px;
+}
+
+.founder {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.founder .founder-img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.founder p {
+    font-size: 1.2em;
+    color: #6a1b9a; 
+}
+
+/* Footer */
+footer {
+    background-color: #6a1b9a; 
+    color: #ffd700; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer .footer-info p {
+    margin-bottom: 10px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: #ffd700; 
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
