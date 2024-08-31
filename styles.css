@@ -72,27 +72,26 @@ header nav ul li a:hover {
     text-decoration: underline;
 }
 
-
-.hero {
-    background: linear-gradient(to bottom, #d1c4e9, #6a1b9a); 
+.intro {
+    background: linear-gradient(to bottom, #d1c4e9, purple); 
     color: #ffd700;
     text-align: center;
     padding: 60px 20px;
 }
 
-.hero h1 {
+.intro h1 {
     font-size: 2.5em;
     margin-bottom: 10px;
 }
 
-.hero p {
+.intro p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
 
-.hero .btn {
+.intro .btn {
     background-color: #ffd700;
-    color: #6a1b9a; 
+    color: purple; 
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -100,36 +99,36 @@ header nav ul li a:hover {
     display: inline-block;
 }
 
-.hero .btn:hover {
+.intro .btn:hover {
     background-color: #ffeb3b; 
 }
 
-.featured {
+.features {
     background-color: #f1f8e9;
     padding: 40px 20px;
 }
 
-.featured .container {
+.features .container {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.featured .feature {
+.features .ftr {
     width: 45%;
 }
 
-.featured .feature h2 {
+.features .ftr h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
 }
 
-.featured .feature ul {
+.features .ftr ul {
     list-style: none;
 }
 
-.featured .feature ul li {
+.features .ftr ul li {
     margin-bottom: 5px;
 }
 
@@ -147,12 +146,12 @@ header nav ul li a:hover {
 
 .founder p {
     font-size: 1.2em;
-    color: #6a1b9a; 
+    color: purple; 
 }
 
 /* Footer */
 footer {
-    background-color: #6a1b9a; 
+    background-color: purple; 
     color: #ffd700; 
     padding: 20px 0;
     text-align: center;
