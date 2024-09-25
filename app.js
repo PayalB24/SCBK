@@ -18,7 +18,7 @@ function applyMargin() {
     if (window.innerWidth <= 768) {
         const studentSection = document.getElementById('std');
         if (studentSection) {
-            studentSection.style.marginTop = '500px';
+            studentSection.style.marginTop = '400px';
         }
     }
 }
