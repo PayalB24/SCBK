@@ -41,6 +41,7 @@
 
 #section1 h2 {
     color: #940159;
+    font-size: 1.7rem;
 }
 
 #section1 h1 {
@@ -52,6 +53,7 @@
 #section1 p {
     line-height: 1.5;
     max-width: 800px;
+    font-size: 1.2rem;
     color: #333;
 }
 #section2 {
@@ -66,7 +68,6 @@
 
 #section3 {
     height: 10vh;
-    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -156,21 +157,21 @@
         </div>
         <ul class="custom-nav-li" id="navLinks">
             <li><a href="#section1">Home</a></li>
-            <!-- Dropdown for "Our Journey" -->
+
             <li class="dropdown">
               <a href="about.html" class="dropbtn" onclick="toggleDropdown(event); applyMargin();">Our Journey</a>
               <ul class="dropdown-content" id="dropdownMenu">
-                    <li><a href="about.html">Our History</a></li>
-                    <li><a href="achievements.html">Achievements</a></li>
-                    <li><a href="vision.html">Vision & Mission</a></li>
-                    <li><a href="vision.html">Managing Trustee</a></li>
-                    <li><a href="vision.html">Principal's Message</a></li>
-                    <li><a href="vision.html">Calender</a></li>
+                <li><a href="about.html#section1">Our History</a></li>
+                <li><a href="/about.html#section2">Achievements</a></li>
+                <li><a href="/about.html#section3">Vision & Mission</a></li>
+                <li><a href="/about.html#section4">Managing Trustee</a></li>
+                <li><a href="/about.html#section5">Principal's Message</a></li>
+                <li><a href="/about.html#section6">Calender</a></li>
                 </ul>
             </li>
             <li id="std"><a href="studentteacher.html">Students</a></li>
             <li id="teach"><a href="studentteacher.html">Teachers</a></li>
-            <li id="admic"><a href="#">Admissions</a></li>
+            <li id="admic"><a href="admissions.html">Admissions</a></li>
         </ul>
         <div class="custom-burger" id="custom" onclick="toggleNav()">
             <div class="line1"></div>
@@ -210,7 +211,7 @@
                 <img src="/Images/Founder.png">
             </div>
             <div id="h3">
-              <h4>Shri Changdev Barku Patil Kolpe</h>
+              <h3>Shri Changdev Barku Patil Kolpe</h3>
             </div>
         </section>
     </main>
