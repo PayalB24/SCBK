@@ -12,16 +12,27 @@
     <header>
         <nav class="custom-navbar">
             <div class="custom-logo">
-                 <hr>
-                 <h1>SCBK</h1>
-                 <hr>
+                <hr>
+                <h1>SCBK</h1>
+                <hr>
             </div>
             <ul class="custom-nav-li" id="navLinks">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">Our Journey</a></li>
-                <li><a href="studentteacher.html">Students</a></li>
-                <li><a href="studentteacher.html">Teachers</a></li>
-                <li><a href="#">Admissions</a></li>
+    
+                <li class="dropdown">
+                  <a href="about.html" class="dropbtn" onclick="toggleDropdown(event); applyMargin();">Our Journey</a>
+                  <ul class="dropdown-content" id="dropdownMenu">
+                    <li><a href="about.html#section1">Our History</a></li>
+                    <li><a href="/about.html#section2">Achievements</a></li>
+                    <li><a href="/about.html#section3">Vision & Mission</a></li>
+                    <li><a href="/about.html#section4">Managing Trustee</a></li>
+                    <li><a href="/about.html#section5">Principal's Message</a></li>
+                    <li><a href="/about.html#section6">Calender</a></li>
+                    </ul>
+                </li>
+                <li id="std"><a href="studentteacher.html">Students</a></li>
+                <li id="teach"><a href="studentteacher.html">Teachers</a></li>
+                <li id="admic"><a href="admissions.html">Admissions</a></li>
             </ul>
             <div class="custom-burger" id="custom" onclick="toggleNav()">
                 <div class="line1"></div>
@@ -30,8 +41,37 @@
             </div>
         </nav>
     </header>
+    
     <main>
-        
+        <section id="section1" class="history">
+            <h2>Section 1 Title</h2>
+            <p>Description or content for section 1.</p>
+        </section>
+
+        <section id="section2" class="achievements">
+            <h2>Section 2 Title</h2>
+            <p>Description or content for section 2.</p>
+        </section>
+
+        <section id="section3" class="vision&mission">
+            <h2>Section 3 Title</h2>
+            <p>Description or content for section 3.</p>
+        </section>
+
+        <section id="section4" class="managing-trustee">
+            <h2>Section 4 Title</h2>
+            <p>Description or content for section 4.</p>
+        </section>
+
+        <section id="section5" class="message">
+            <h2>Section 5 Title</h2>
+            <p>Description or content for section 5.</p>
+        </section>
+
+        <section id="section6" class="Calender">
+            <h2>Section 6 Title</h2>
+            <p>Description or content for section 6.</p>
+        </section>
     </main>
     <footer id="footer">
         <div class="footer-container">
