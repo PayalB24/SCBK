@@ -138,37 +138,46 @@
 </head>
 
 <body>
-    <header>
-        <nav class="custom-navbar">
-            <div class="custom-logo">
-                <hr>
-                <h1>SCBK</h1>
-                <hr>
-            </div>
-            <ul class="custom-nav-li" id="navLinks">
-                <li><a href="#section1">Home</a></li>
-                <li class="dropdown">
-                    <a href="about.html" class="dropbtn" onclick="toggleDropdown(event); applyMargin();">Our Journey</a>
-                    <ul class="dropdown-content" id="dropdownMenu">
-                      <li><a href="about.html#section1">Our History</a></li>
-                      <li><a href="/about.html#section2">Achievements</a></li>
-                      <li><a href="/about.html#section3">Vision & Mission</a></li>
-                      <li><a href="/about.html#section4">Managing Trustee</a></li>
-                      <li><a href="/about.html#section5">Principal's Message</a></li>
-                      <li><a href="/about.html#section6">Calender</a></li>
-                      </ul>
-                  </li>
-                <li><a href="studentteacher.html">Students</a></li>
-                <li><a href="studentteacher.html">Teachers</a></li>
-                <li><a href="admissions.html">Admissions</a></li>
-            </ul>
-            <div class="custom-burger" id="custom" onclick="toggleNav()">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-    </header>
+<header>
+    <nav class="custom-navbar">
+        <div class="custom-logo">
+            <hr>
+            <h1>SCBK</h1>
+            <hr>
+        </div>
+        <ul class="custom-nav-li" id="navLinks">
+            <li><a href="index.php">Home</a></li>
+            <li class="dropdown">
+              <a href="about.php" class="dropbtn" onclick="toggleDropdown(event); applyMargin();">Our Journey</a>
+              <ul class="dropdown-content" id="dropdownMenu">
+                <li><a href="about.php#section1">Our History</a></li>
+                <li><a href="about.php#section2">Achievements</a></li>
+                <li><a href="about.php#section3">Vision & Mission</a></li>
+                <li><a href="about.php#section4">Managing Trustee</a></li>
+                <li><a href="about.php#section5">Principal's Message</a></li>
+                <li><a href="about.php#section6">Calender</a></li>
+                </ul>
+            </li>
+            <!-- <li id="std"><a href="studentteacher.php">Students</a></li>
+            <li id="teach"><a href="studentteacher.php">Teachers</a></li> -->
+            <li class="dropdown">
+              <a href="about.php" class="dropbtn" onclick="toggleDropdown(event); applyMargin();">Dashboard</a>
+              <ul class="dropdown-content" id="dropdownMenu">
+                <li><a href="studentlogin.php">Student</a></li>
+                <li><a href="teacherlogin.php">Teacher</a></li>
+                <li><a href="plogin.php">Principal</a></li>
+                </ul>
+            </li>
+            <li id="admic"><a href="admissions.php">Admissions</a></li>
+            <li><a href="signup.php">Sign up</a></li>
+        </ul>
+        <div class="custom-burger" id="custom" onclick="toggleNav()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+</header>
 
     <main>
         <div class="container">
@@ -224,7 +233,7 @@
                 <p>Click the button below to fill out the admission form. It should take around 10 minutes to complete.(खालील बटणावर क्लिक करा आणि प्रवेश फॉर्म भरा. हे पूर्ण करण्यात सुमारे १० मिनिटे लागतील.)</p>
             </div>
 
-            <a href="admission-form.html" class="btn1">Fill Admission Form</a>
+            <a href="admission-form.php" class="btn1">Fill Admission Form</a>
         </div>
     </main>
 

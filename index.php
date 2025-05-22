@@ -24,7 +24,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(/Images/Schoolimage.jpg);
+    background-image: url(Schoolimage.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -156,22 +156,30 @@
             <hr>
         </div>
         <ul class="custom-nav-li" id="navLinks">
-            <li><a href="#section1">Home</a></li>
-
+            <li><a href="index.php">Home</a></li>
             <li class="dropdown">
-              <a href="about.html" class="dropbtn" onclick="toggleDropdown(event); applyMargin();">Our Journey</a>
+              <a href="about.php" class="dropbtn" onclick="toggleDropdown(event); applyMargin();">Our Journey</a>
               <ul class="dropdown-content" id="dropdownMenu">
-                <li><a href="about.html#section1">Our History</a></li>
-                <li><a href="/about.html#section2">Achievements</a></li>
-                <li><a href="/about.html#section3">Vision & Mission</a></li>
-                <li><a href="/about.html#section4">Managing Trustee</a></li>
-                <li><a href="/about.html#section5">Principal's Message</a></li>
-                <li><a href="/about.html#section6">Calender</a></li>
+                <li><a href="about.php#section1">Our History</a></li>
+                <li><a href="about.php#section2">Achievements</a></li>
+                <li><a href="about.php#section3">Vision & Mission</a></li>
+                <li><a href="about.php#section4">Managing Trustee</a></li>
+                <li><a href="about.php#section5">Principal's Message</a></li>
+                <li><a href="about.php#section6">Calender</a></li>
                 </ul>
             </li>
-            <li id="std"><a href="studentteacher.html">Students</a></li>
-            <li id="teach"><a href="studentteacher.html">Teachers</a></li>
-            <li id="admic"><a href="admissions.html">Admissions</a></li>
+            <!-- <li id="std"><a href="studentteacher.php">Students</a></li>
+            <li id="teach"><a href="studentteacher.php">Teachers</a></li> -->
+            <li class="dropdown">
+              <a href="about.php" class="dropbtn" onclick="toggleDropdown(event); applyMargin();">Dashboard</a>
+              <ul class="dropdown-content" id="dropdownMenu">
+                <li><a href="studentlogin.php">Student</a></li>
+                <li><a href="teacherlogin.php">Teacher</a></li>
+                <li><a href="plogin.php">Principal</a></li>
+                </ul>
+            </li>
+            <li id="admic"><a href="admissions.php">Admissions</a></li>
+            <li><a href="signup.php">Sign up</a></li>
         </ul>
         <div class="custom-burger" id="custom" onclick="toggleNav()">
             <div class="line1"></div>
@@ -192,14 +200,14 @@
         <section id="section2">
           <div class="logos">
             <div class="logos-slide">
-              <img src="/Images/IMG_20240829_160412.jpg" />
-              <img src="/Images/IMG_20240829_160454.jpg" />
-              <img src="/Images/logo.jpg" />
-              <img src="/Images/Schoolimage.jpg" />
-              <img src="/Images/schoolrally.jpg" />
-              <img src="/Images/student'sachievements.jpg" />
-              <img src="/Images/student'saviements2.jpg" />
-              <img src="/Images/students.jpg" />
+              <img src="IMG_20240829_160412.jpg" />
+              <img src="IMG_20240829_160454.jpg" />
+              <img src="logo.jpg" />
+              <img src="Schoolimage.jpg" />
+              <img src="schoolrally.jpg" />
+              <img src="student'sachievements.jpg" />
+              <img src="student'saviements2.jpg" />
+              <img src="students.jpg" />
             </div>
           </div>
         </section>
@@ -208,7 +216,7 @@
           <h2>Meet our Founder</h2>
         </div>
             <div class="founder">
-                <img src="/Images/Founder.png">
+                <img src="Founder.png">
             </div>
             <div id="h3">
               <h3>Shri Changdev Barku Patil Kolpe</h3>
@@ -228,8 +236,8 @@
               <p>Phone: +123 456 7890</p>
           </div>
           <div class="footer-social">
-              <a href="#"><img src="/Images/facebook-icon.png" alt="Facebook"></a>
-              <a href="#"><img src="/Images/instagram-icon.png" alt="Instagram"></a>
+              <a href="#"><img src="/facebook-icon.png" alt="Facebook"></a>
+              <a href="#"><img src="/instagram-icon.png" alt="Instagram"></a>
           </div>
       </div>
   </footer>

@@ -14,23 +14,6 @@ function toggleDropdown(event) {
         }
     });
 }
-function applyMargin() {
-    if (window.innerWidth <= 768) {
-        const studentSection = document.getElementById('std');
-        if (studentSection) {
-            studentSection.style.marginTop = '400px';
-        }
-    }
-}
-
-function resetMargin() {
-    if (window.innerWidth <= 768) {
-        const studentSection = document.getElementById('std');
-        if (studentSection) {
-            studentSection.style.marginTop = '17px';
-        }
-    }
-}
 
 document.addEventListener('click', function(event) {
     if (!event.target.closest('.dropbtn')) {
@@ -48,15 +31,3 @@ window.onclick = function (event) {
         navLinks.classList.remove('active');
     }
 };
-
-// const navLinks = document.querySelectorAll('nav a');
-
-// navLinks.forEach(link => {
-//     link.addEventListener('click', function(e) {
-//         e.preventDefault();
-//         const targetId = this.getAttribute('href');
-//         document.querySelector(targetId).scrollIntoView({
-//             behavior: 'smooth'
-//         });
-//     });
-// });
